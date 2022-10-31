@@ -27,6 +27,12 @@ where `VOTERS.TXT` is one of the TSV files provided by ACED.
 
 ## Notes on data
 
+You can request the data from the Allegheny County elections division.
+The data is not permitted to be distributed freely available online because it
+contains personally identifiable information on voters.
+While that information is considered public record, the wide availability of that
+information is considered bad thing.
+
 You may need to convert data from ASCII to UTF-8 to use some of these programs.
 
     iconv -c -f ascii -t utf8 VOTERS.TXT -o VOTERS-utf8.txt
