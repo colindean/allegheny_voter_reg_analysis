@@ -1,0 +1,4 @@
+VOTERS*.TXT
+*.csv
+
+.mypy_cache

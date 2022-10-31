@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+pyarrow = "*"
+colorlog = "*"
+polars = "*"
+
+[dev-packages]
+black = "*"
+flake8 = "*"
+mypy = "*"
+pandas-stubs = "*"
+pyreadline3 = "*"
+
+[requires]
+python_version = "3.10"
